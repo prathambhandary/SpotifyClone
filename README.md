@@ -1,0 +1,2 @@
+# SpotifyClone
+only home page 
