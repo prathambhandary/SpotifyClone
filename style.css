@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(193, 193, 193);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#app{
+    position: absolute;
+    height: 90vh;
+    width: 300px;
+    background-color: #121212;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: calibri;
+}
+
+#mobilestuff{
+    height: 4%;
+}
+
+#profile{
+    background-color: #eb674b;
+    font-weight: bold;
+    padding-top: 2.5px;
+    text-align: center;
+    height: 22.5px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+#dashbtn1{
+    font-size: smaller;
+    background-color: #20d966;
+    font-weight: bold;
+    padding-top: 3.5px;
+    text-align: center;
+    height: 21.5px;
+    width: 40px;
+    border-radius: 30px;
+}
+#dashbtn2{
+    color: #fff;
+    font-size: smaller;
+    background-color: #2a2a2a;
+    font-weight: bold;
+    padding-top: 3.5px;
+    text-align: center;
+    height: 21.5px;
+    width: 55px;
+    border-radius: 30px;
+}
+#dashbtn3{
+    color: #fff;
+    font-size: smaller;
+    background-color: #2a2a2a;
+    font-weight: bold;
+    padding-top: 3.5px;
+    text-align: center;
+    height: 21.5px;
+    width: 80px;
+    border-radius: 30px;
+}
+#dashcover{
+    border-right: transparent solid 10px;
+}
+
+#dashboard{
+    display: flex;
+    padding-left: 8px;
+    padding-top:  3%;
+    font-family: Calibri, 'Trebuchet MS', sans-serif ,Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    background-color: #121212;
+    height: 7%;
+    border-radius: 26px;
+    border-bottom: 4px solid;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#clm{
+    position: relative;
+    top: -16px;
+    background-color:#121212;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 220px;
+    font-size: 20px;
+    border-bottom: 0px solid black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    padding-top: 8px;
+}
+#clm1, #clm2, #clm3, #clm4, #clm5, #clm6, #clm7, #clm8{
+    height: 50px;
+    width: 147.5px;
+    background-color: #2a2a2a;
+    display: flex;
+}
+#clmgap{
+    width: 5px;
+}
+#clm10, #clm20{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+#singers{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 11%;
+    padding-left: 5px;
+}
+
+#vid{
+    padding: 10px;
+    background-image: url(minibg.jpg);
+    background-size: contain;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#vidtext1{
+    text-shadow: 2px 2px 1px #121212;
+    font-size: small;
+    width: 200px;
+}
+#vidtext2{
+    text-shadow: 2px 2px 1px #121212;
+    font-size: 23px;
+}
+#vidtext3{
+    text-shadow: 2px 2px 1px #121212;
+    font-size: small;
+    width: 300px;
+}
+#vidgap2{
+    height: 50px;
+}
+#vidgap1{
+    width: 50px;
+}
+#more{
+    background-image: url(ham.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+#vidtop{
+    display: flex;
+}
+
+#recent{
+    padding-top: 15px;
+    height: 120px;
+    background-color: #121212;
+    color: #fff;
+}
+#bigheading{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;    
+    padding-top: 15px;
+}
+#artist1img, #artist2img, #artist3img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+#artist1name, #artist2name, #artist3name{
+    padding-top: 2px;
+    height: auto;
+    width: 80px;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+#img1{
+    background-image: url(img1.jpg);
+    background-size: contain;
+}
+#img2{
+    background-image: url(img2.jpg);
+    background-size: contain;
+}
+#img3{
+    background-image: url(img3.jpg);
+    background-size: contain;
+}
+#img4{
+    background-image: url(img4.jpg);
+    background-size: contain;
+}
+#img5{
+    background-image: url(img5.jpg);
+    background-size: contain;
+}
+#img6{
+    background-image: url(img6.jpg);
+    background-size: contain;
+}
+#img7{
+    background-image: url(img7.jpg);
+    background-size: contain;
+}
+#img8{
+    background-image: url(img8.avif);
+    background-size: contain;
+}
+#artist1img{
+    background-image: url(img11.webp);
+    background-size: contain;
+}
+#artist2img{
+    background-image: url(img12.jpg);
+    background-size: cover;
+}
+#artist3img{
+    background-image: url(img13.jpg);
+    background-size: contain;
+}
